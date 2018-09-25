@@ -12,7 +12,6 @@ var char;
    });
    
    char.save().then(function(){
-       assert(char.isNew === false);
        done();
    }); 
    });
